@@ -1,0 +1,36 @@
+1- Engine adında bir class oluşturun.
+2- İçerisinde enginePower, engineVolume, fuelType özellikleri olsun. fuelType bir enum olarak oluşturulup class' a property olarak tanımlansın.
+Bütün property'ler private access modifier' a sahip olacak.
+3- Class' ın değişmeyen ve default olarak değerleri kullanılan iki özelliği olsun. --> DEFAULT_ENGINEPOWER ve DEFAULT_ENGINEVOLUME
+4- Engine çalıştığında enginePower, engineVolume, fuelType property' lerini tanımlamak zorunlu olsun veya Engin çalıştığında fuelType, DEFAULT_ENGINEPOWER ve DEFAULT_ENGINEVOLUME property' leri tanımlamak zorunlu olsun.
+-----------------------------------------------------------------------------------------------
+5- MotorVehicle adında bir class oluşturun.
+6- İçerisinde brand, year, engine property' leri olsun. Class çalıştığında bu 3 özellik de çalışsın.
+-----------------------------------------------------------------------------------------------
+7- Yukarıdaki işlemleri yaptığınız paketten ayrı iki paket daha oluşturun. Adları --> motorlandvehicles, motorwatervegicles olsun.
+-----------------------------------------------------------------------------------------------
+8- motorlandvehicles paketi içerisinde MotorLandVehicle abstract class' ı olsun.
+Class'ın nesnesi oluştuğunda bütün özellikleri tanımlamak zorunlu olsun.
+9- Class' ın licensePlate ve numberOfWheels property' leri olsun.
+-----------------------------------------------------------------------------------------------
+10- Car adında bir class oluşturun.
+11- Property olarak numberOfDoors olsun. Class çalıştığında bütün özellikleri tanımlamak zorunlu olsun.
+12-Main class' ı oluşturun ve burada bir 'car' nesne oluşturun ve konsolda bu nesneyi yazdırın.
+Daha sonra enginePower' ı main class'ında güncelleyin ve ekrana yazdırın.
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+13- motorwatervehicles paketi içerisinde MotorWaterVehicles abstract class' ı oluşturun.
+İçerisinde numberOfEngine, width, height, registry, hullMaterial, numberOfCabin property'leri olacak.
+14- Class' ın nesnesi üretildiğinde bütün özellikleri tanımlamak zorunlu olsun.
+-----------------------------------------------------------------------------------------------
+15- Sail adında bir class oluşturun.
+16- İçerisinde type adında bir property' i olmalı.
+17- Nesnesi üretildiğinde bütün alanları tanımlamak zorunlu olsun.
+18- Main' de bir nesne üretin ve konsola yazdırın. Daha sonra hullMaterial property' sini güncelleyin ve tekrar konsola yazdırın.
+------------------------------------------------------------------------------------------------------------
+19- Yacht adında bir class oluşturun.
+20- İçerisinde numberOfBeds, engineBrand property'leri olsun.
+21- Nesne oluşturulurken bütün üyeli tanımlamak zorunlu olsun.
+22- Main' de bir nesne üretip konsola yazdırın.
+
+
